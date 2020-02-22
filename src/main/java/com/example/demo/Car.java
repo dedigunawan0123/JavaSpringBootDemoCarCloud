@@ -30,6 +30,14 @@ public class Car {
 		this.fuel = fuel;
 		this.year = year;
 	}
+	public Car(String brand, String model, String color, String fuel, int year) {
+		super();
+		this.brand = brand;
+		this.model = model;
+		this.color = color;
+		this.fuel = fuel;
+		this.year = year;
+	}
 	public Long getId() {
 		return id;
 	}
